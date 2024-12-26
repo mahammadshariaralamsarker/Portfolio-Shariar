@@ -50,7 +50,7 @@ I am passionate about leveraging technology to solve real-world challenges and a
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/mahammad-shariar-alam-sarker-istian/",
-  github: "https://github.com/mahammadshariaralamsarker?tab=repositories",
+  github: "https://github.com/mahammadshariaralamsarker",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
   facebook: "https://www.facebook.com/profile.php?id=100087931313836",
