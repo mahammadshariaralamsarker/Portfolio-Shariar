@@ -25,4 +25,9 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+.b{
+  border-width: 3px;
+  border-color: red;
+  border-style: solid;
+}
 

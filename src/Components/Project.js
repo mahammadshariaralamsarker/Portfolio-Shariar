@@ -2,8 +2,8 @@ import React from "react";
 
 function Project({ title, image, description, techstack, previewLink, githubLink }) {
   return (
-    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <img src={image} alt="" loading="lazy" />
+    <article className="rounded-xl mt-10  overflow-hidden shadow-md border-2 border-solid-white shadow-[#428DE5]       ">
+      <img className="h-56  w-full" src={image} alt="" loading="lazy" />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <p className="text-content pt-4 font-light">{description}</p>
