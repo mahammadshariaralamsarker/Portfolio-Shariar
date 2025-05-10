@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/profile.jpeg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -36,7 +36,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Mahammad Shariar Alam Sarker",
-  tagline: "I build things for web",
+  tagline: "I build things for the web — modern, responsive, and scalable applications using TypeScript, MERN Stack, and  NEXT JS.",
   img: profile,
   about: `As a dedicated Computer Science and Engineering student at the Institute of Science and Technology in Dhanmondi, I have cultivated a strong foundation in software development and problem-solving. Over the past year, I have focused extensively on mastering the MERN stack—MongoDB, Express.js, React, and Node.js—and building dynamic, responsive web applications.
 

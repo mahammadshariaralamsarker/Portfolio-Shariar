@@ -1,3 +1,4 @@
+ 
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
@@ -57,17 +58,17 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
-      <div>
+    <main className="container mx-auto max-width section md:flex justify-between items-center  ">
+      <div className="w-2/3">
         <h1
           ref={h11}
-          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className=" mb-8 text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold  "
         >
-          Hi,👋<br></br>My Name is<br></br>
+          Hi,👋<br ></br>My Name is<br></br>
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-8"
         >
           {name}
         </h1>
@@ -79,7 +80,7 @@ function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+        <img ref={myimageref} className="w-96 md:ml-auto border-2 border-red-300" src={img} alt="Pavan MG" />
       </div>
     </main>
   );
