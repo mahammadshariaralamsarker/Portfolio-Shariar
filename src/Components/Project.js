@@ -10,44 +10,20 @@ function Project({ id, title, image, description, techstack, previewLink, github
         <img className="h-56 w-full" src={image} alt="" loading="lazy" />
         <div className="dark:bg-dark-card p-4">
           <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
-          <p className="text-content pt-4 font-light">{description}</p>
-          <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-            Tech Stack : <span className="font-light">{techstack}</span>
-          </h3>
-          <div className="flex justify-between items-center mt-5">
-            <div className="flex items-center">
-              <a
-                href={previewLink}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="underline pl-2 font-light dark:text-white"
-              >
-                Live Preview
-              </a>
-            </div>
-            <div className="flex items-center">
-              <a
-                href={githubLink}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="underline pl-2 font-light dark:text-white"
-              >
-                View Code
-              </a>
-            </div>
-          </div>
-          <NavLink
-          to={`/project/${id}`}
+          <p className="text-content pt-4 font-light">
+            {description.length > 200 ? `${description.slice(0, 200)}...` : description}
+          </p>
 
-            className="mt-4 underline font-light dark:text-white"
-            
+         
+          <NavLink
+            to={`/project/${id}`}
+            type="button"
+            className="mt-4 w-full text-center rounded-2xl p-2 text-white bg-emerald-600 font-primary bg-primary"
           >
             View Project Details
           </NavLink>
         </div>
       </article>
-
-     
     </>
   );
 }

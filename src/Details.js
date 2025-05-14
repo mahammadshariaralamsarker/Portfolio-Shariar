@@ -1,10 +1,6 @@
-// Enter all your detials in this file
-// Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
-// Profile Image
 import profile from "./assets/profile.jpeg";
-// Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
 import sass from "./assets/techstack/sass.png";
@@ -19,12 +15,13 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import nextjs from "./assets/techstack/nextjs.png";
 // Porject Images
-import projectImage1 from "./assets/projects/globalAcademia.png";
-import projectImage2 from "./assets/projects/storySafari.png";
+import projectImage1 from "./assets/projects/medi-mart.png";
+import projectImage2 from "./assets/projects/Bike Management.png";
 import projectImage3 from "./assets/projects/ETicket.png";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage4 from "./assets/projects/globalAcademia.png";
+import projectImage5 from "./assets/projects/storySafari.png";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
@@ -98,11 +95,19 @@ export const eduDetails = [
     Duration: "Aug 2022 - Present",
   },
   {
-    Position: "Frontend Development",
-    Company: "Programming Hero ",
+    Position: "Complete Web Development with Jhanker Mahbub",
+    Company: "Programming Hero",
+    
     Location: "Online",
     Type: "Full Time",
-    Duration: "Jan 2024 - Present",
+    Duration: "Jan 2024 - Auguest 2024",
+  },
+  {
+    Position: "Next Level Web Development Level 2",
+    Company: "Programming Hero",
+    Location: "Online",
+    Type: "Full Time",
+    Duration: "Jan 2025 - Present",
   },
 
 ];
@@ -113,6 +118,7 @@ export const techStackDetails = {
   css: css,
   js: js,
   react: react,
+  nextjs: nextjs,
   redux: redux,
   sass: sass,
   tailwind: tailwind,
@@ -127,32 +133,27 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
-  { id:1,
-    title: "Global Academia",
+  {
+    id: 1,
+    title: "Medi Mart",
     image: projectImage1,
-    description: `Global Academia: Your gateway to international education.
-Expert guidance for admissions in China and beyond.
-Responsive website, personalized support, proven success.
-Unlock your academic potential – apply today!`,
-    techstack: "Tailwind CSS, React",
-    previewLink: "https://6525608411ddcb38f9e30cd4--flourishing-caramel-4d2d77.netlify.app/",
-    githubLink: "https://github.com/mahammadshariaralamsarker/global_academia",
+    description: `Developed a full-stack role-based e-commerce and bike servicing platform using MERN stack with Next.js and ShurjoPay integration. The system includes separate dashboards for sellers and buyers, secure authentication with JWT, and fine-grained access control for managing products, services, and orders. Implemented ShurjoPay for payment processing, enabling users to complete transactions and receive automated invoices. Users can request bike servicing, receive discounts from sellers, and get feedback from admins after service completion. The application supports full profile management, real-time user-seller interaction, and complete CRUD operations for products and services.`,
+    techstack: " React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit, Radix UI, React Hook Form, Zod,Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, Cloudinary, Multer,ShurjoPay API, PDF Invoice (React PDF), Role-based Access Control, Vite, ESLint, Prettier, ts-node-dev, Git, Postman, VS Code",
+    previewLink: "https://medi-mart-client-nine.vercel.app/",
+    githubLink: "https://github.com/mahammadshariaralamsarker/medi-mart-client",
+
   },
   {
-    id:2,
-    title: "Story-Safari",
+    id: 2,
+    title: "Bike Management",
     image: projectImage2,
-    description: `Story Safari: Explore a world of books.
-Discover novels, biographies, history, and more.
-Read excerpts, find your next favorite story.
-Order your chosen books with ease.
-Built with React and Express for a seamless experience.`,
-    techstack: "Tailwind CSS, React",
-    previewLink: "https://story-safari.web.app",
-    githubLink: "https://github.com/mahammadshariaralamsarker/story-safari",
+    description: `Bike Management: Built a full-stack platform with role-based access control for sellers and buyers, featuring secure authentication using JWT. Sellers can post products, offer bike servicing, and provide personalized discounts in response to user requests. Buyers can request services, accept offers, and confirm orders. Upon service completion, users receive feedback from the admin to ensure service quality and platform trust.`,
+    techstack: "React, TypeScript, Tailwind CSS, Redux Toolkit, Radix UI, React Hook Form, Zod,Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, Cloudinary, Multer, PDF Invoice (React PDF),  ESLint, Prettier, Git, Postman",
+    previewLink: "https://bike-management-client-taupe.vercel.app",
+    githubLink: "https://github.com/mahammadshariaralamsarker/BikeManagementClient",
   },
   {
-    id:3,
+    id: 3,
     title: "E-Ticket",
     image: projectImage3,
     description: `E-Ticket: Your convenient travel companion.
@@ -165,17 +166,17 @@ Plan your journey with ease.`,
     githubLink: "https://github.com/mahammadshariaralamsarker/E-Ticket",
   },
   {
-    id:4,
+    id: 4,
     title: "Project title 4",
     image: projectImage4,
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+       previewLink: "https://6525608411ddcb38f9e30cd4--flourishing-caramel-4d2d77.netlify.app/",
+      githubLink: "https://github.com/mahammadshariaralamsarker/global_academia",
   },
   {
-    id:5,
+    id: 5,
     title: "Project title 5",
     image: projectImage5,
     description: `This is sample project description random things are here in description This is sample
@@ -185,7 +186,7 @@ project lorem ipsum generator for dummy content`,
     githubLink: "https://github.com",
   },
   {
-    id:6,
+    id: 6,
     title: "Project title 6",
     image: projectImage6,
     description: `This is sample project description random things are here in description This is sample
@@ -195,7 +196,7 @@ project lorem ipsum generator for dummy content`,
     githubLink: "https://github.com",
   },
   {
-    id:7,
+    id: 7,
     title: "Project title 7",
     image: projectImage6,
     description: `This is sample project description random things are here in description This is sample
