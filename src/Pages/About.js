@@ -4,8 +4,8 @@ import { personalDetails, workDetails, eduDetails } from "../Details";
 
 function About() {
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
-      <section>
+    <main className="container mx-auto   pt-10 pb-20 ">
+      <section  className="container mx-auto   p-6 md:p-10">
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
         </h1>
@@ -27,7 +27,7 @@ function About() {
           ))
         )}
       </section> */}
-      <section>
+      <section className="container mx-auto     p-6 md:p-10">
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Education
         </h1>

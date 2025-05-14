@@ -127,7 +127,7 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
-  {
+  { id:1,
     title: "Global Academia",
     image: projectImage1,
     description: `Global Academia: Your gateway to international education.
@@ -139,6 +139,7 @@ Unlock your academic potential – apply today!`,
     githubLink: "https://github.com/mahammadshariaralamsarker/global_academia",
   },
   {
+    id:2,
     title: "Story-Safari",
     image: projectImage2,
     description: `Story Safari: Explore a world of books.
@@ -151,6 +152,7 @@ Built with React and Express for a seamless experience.`,
     githubLink: "https://github.com/mahammadshariaralamsarker/story-safari",
   },
   {
+    id:3,
     title: "E-Ticket",
     image: projectImage3,
     description: `E-Ticket: Your convenient travel companion.
@@ -163,6 +165,7 @@ Plan your journey with ease.`,
     githubLink: "https://github.com/mahammadshariaralamsarker/E-Ticket",
   },
   {
+    id:4,
     title: "Project title 4",
     image: projectImage4,
     description: `This is sample project description random things are here in description This is sample
@@ -172,6 +175,7 @@ project lorem ipsum generator for dummy content`,
     githubLink: "https://github.com",
   },
   {
+    id:5,
     title: "Project title 5",
     image: projectImage5,
     description: `This is sample project description random things are here in description This is sample
@@ -181,6 +185,7 @@ project lorem ipsum generator for dummy content`,
     githubLink: "https://github.com",
   },
   {
+    id:6,
     title: "Project title 6",
     image: projectImage6,
     description: `This is sample project description random things are here in description This is sample
@@ -190,6 +195,7 @@ project lorem ipsum generator for dummy content`,
     githubLink: "https://github.com",
   },
   {
+    id:7,
     title: "Project title 7",
     image: projectImage6,
     description: `This is sample project description random things are here in description This is sample

@@ -12,12 +12,12 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
-  const activeLinkStyle = "text-blue-500";  // Define the color for active link
-  const inactiveLinkStyle = "text-white";   // Define the color for inactive link
+  const activeLinkStyle = "text-blue-500";   
+  const inactiveLinkStyle = "text-white";    
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
-      <div className="flex justify-between items-center py-2 md:py-10">
+    <header className="  md:flex justify-between px-10 py-2 mt-4">
+      <div className="flex justify-between items-center     py-5 md:py-0">
         <NavLink to="/">
           <img className="w-14" src={logos.logogradient} alt="logo" />
         </NavLink>
